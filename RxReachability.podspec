@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.source_files = 'RxReachability/Classes/**/*'
 
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'ReachabilitySwift',
+  s.dependency 'ReachabilitySwift', '~> 4.1'
   s.dependency 'RxSwift', '~> 3.6.1'
   s.dependency 'RxCocoa', '~> 3.6.1'
 end
